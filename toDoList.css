@@ -1,0 +1,53 @@
+
+
+#contianer{
+   background-color:rgb(175, 151, 107);
+   width: 320px;
+   padding: 12px;
+}
+h1{
+    font-family: 'Caveat', cursive;
+    color:#8b0c21;
+}
+h2{
+    color:#8b0c21;
+    font-family: 'Caveat', cursive;
+    text-decoration: underline;
+    
+
+}
+ul {
+    font-style:italic;
+    list-style: none;
+    padding: 0px;
+    color:wheat;
+}
+
+ul li:before
+{
+    content: '\2764';
+    color:#8b0c21;
+    margin: 0 1em;    /* any design */
+}
+ul li:after{
+    content:'\2661';
+    color:#af1623;
+}
+ul li:first-child{
+    text-decoration: line-through;
+}
+
+hr{
+    border: 0.7px solid wheat;
+}
+li:nth-child(3){
+    text-decoration: underline;
+}
+li:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.116);
+    /*change the opacity*/
+}
+li:nth-child(odd){
+    background-color: rgba(255, 0, 0, 0.116);
+    /*change the opacity*/
+}
